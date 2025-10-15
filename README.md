@@ -4,23 +4,12 @@
 
 # Тестирование студентов
 
-<style>
-   a:link{
-      border: 1px solid black;
+
+
+<a style="border: 1px solid black;
       padding: 5px;
       color: white;
-      background-color: black;
-   }
-
-   a:hover{
-      border: 1px solid black;
-      padding: 5px;
-      color: black;
-      background-color: white;
-   }
-</style>
-
-<a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip-235&prd=1002">ИП235</a>
+      background-color: black;"  href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip-235&prd=1002">ИП235</a>
 
 <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip-236&prd=1002">ИП236</a>
 
