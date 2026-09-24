@@ -8,11 +8,17 @@
 
 > Блок заполняется преподавателем перед началом семестра.
 
-- **Группы:** `ИП-___`, `ИП-___`
+- **Группы:** `ИП-245`, `ИП-246`
 - **Учебная практика:** `___` (неделя, даты)
 - **Экзамен:** `группа ___ — дата, время`
 - **Производственная практика:** `___`
-- **Тестирование студентов (внутренняя система):** `ссылки добавить`
+
+## Тестирование студентов
+
+<!-- TODO: актуализировать группы и период в ссылках ниже -->
+
+- **ИП-245:** <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip245&prd=1002">тестирование</a> · <a href="http://prep.scc/cgi-bin/testm/jrn.pl?prep=asv&sp=0907&grp=ip245&prd=1002">журнал</a> · <a href="http://prep.scc/cgi-bin/testm/jrn_reyting.pl?prep=asv&sp=0907&grp=ip245&prd=1002">рейтинг</a>
+- **ИП-246:** <a href="http://prep.scc/cgi-bin/testm/view.pl?prep=asv&grp=ip246&prd=1002">тестирование</a> · <a href="http://prep.scc/cgi-bin/testm/jrn.pl?prep=asv&sp=0907&grp=ip246&prd=1002">журнал</a> · <a href="http://prep.scc/cgi-bin/testm/jrn_reyting.pl?prep=asv&sp=0907&grp=ip246&prd=1002">рейтинг</a>
 
 ## Требования к окружению
 
