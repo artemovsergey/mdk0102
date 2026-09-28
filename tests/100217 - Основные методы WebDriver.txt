@@ -1,0 +1,133 @@
+192.168.255 192.168.4
+Ставропольский колледж связи
+Специальность::0907::Информационные системы и программирование
+Дисциплина::1002::МДК 01.02 Поддержка и тестирование программных модулей: Основные методы WebDriver
+Преподаватель::Артемов С.В.
+Индекс теста::17::МДК 01.02 Поддержка и тестирование программных модулей: Основные методы WebDriver
+Всего вопросов::20
+Выводимых вопросов::15
+Тип теста::S=100::Z(DCDCDC)::J80%70%60%
+
+##01::3
+Что такое WebDriver?
+Интерфейс для автоматизации браузеров
+Библиотека для работы с базой данных
+Фреймворк для сборки проекта
+Инструмент для управления версиями Git
+##02::3
+Как создать экземпляр драйвера Chrome в C#?
+new ChromeDriver()
+new Chrome()
+new WebDriver("chrome")
+new BrowserDriver("chrome")
+##03::3
+Какой метод переходит на указанный URL?
+driver.Navigate().GoToUrl("https://example.com")
+driver.Navigate().OpenUrl("https://example.com")
+driver.GoToUrl("https://example.com")
+driver.Url.Navigate("https://example.com")
+##04::3
+Какой метод возвращает на предыдущую страницу?
+driver.Navigate().Back()
+driver.Navigate().Previous()
+driver.Navigate().Return()
+driver.Navigate().Undo()
+##05::3
+Какой метод переходит вперёд по истории браузера?
+driver.Navigate().Forward()
+driver.Navigate().Next()
+driver.Navigate().Ahead()
+driver.Navigate().Go()
+##06::3
+Какой метод обновляет текущую страницу?
+driver.Navigate().Refresh()
+driver.Navigate().Reload()
+driver.Navigate().Update()
+driver.Navigate().Restart()
+##07::3
+Какой метод вводит текст в поле ввода?
+SendKeys
+Click
+SendText
+TypeKeys
+##08::3
+Какой метод выполняет клик по элементу?
+Click()
+Press()
+Tap()
+Select()
+##09::3
+Какое свойство показывает, отмечен ли чекбокс?
+Selected
+Checked
+IsChecked
+Enabled
+##10::3
+Как правильно отметить чекбокс, который ещё не отмечен?
+Проверить свойство Selected и вызвать Click()
+Вызвать SendKeys с текстом "on"
+Вызвать Select() у чекбокса
+Установить свойство Selected в true напрямую
+##11::3
+Какой класс используется для работы с элементом select?
+SelectElement
+DropdownElement
+SelectOption
+ComboBox
+##12::3
+Какой метод выбирает пункт выпадающего списка по видимому тексту?
+SelectByText
+SelectByLabel
+SelectByName
+ChooseByText
+##13::3
+Какой метод выбирает пункт выпадающего списка по значению атрибута value?
+SelectByValue
+SelectByAttribute
+SelectByOption
+SelectByData
+##14::3
+Какой метод выбирает пункт выпадающего списка по индексу?
+SelectByIndex
+SelectByNumber
+SelectByCount
+SelectByOrder
+##15::3
+Как получить видимый текст элемента welcomeText?
+welcomeText.Text
+welcomeText.GetText()
+welcomeText.InnerText
+welcomeText.Content
+##16::3
+Как получить значение атрибута value у элемента welcomeText?
+welcomeText.GetAttribute("value")
+welcomeText.GetValue("value")
+welcomeText.GetProperty("value")
+welcomeText.ReadAttribute("value")
+##17::3
+Какой метод в примерах лекции завершает работу браузера?
+driver.Quit()
+driver.Stop()
+driver.Exit()
+driver.Shutdown()
+##18::4
+Какие методы WebDriver используются для навигации по страницам? (Выберите несколько вариантов)
+|33| GoToUrl
+|33| Back
+|34| Forward
+SendKeys
+Click
+##19::4
+Какие методы используются для взаимодействия с элементами? (Выберите несколько вариантов)
+|50| SendKeys — ввод текста
+|50| Click — клик по элементу
+Navigate().Refresh() — обновление страницы
+Navigate().Back() — возврат на предыдущую страницу
+Quit() - закрытие браузера
+##20::4
+Какие методы класса SelectElement перечислены в лекции? (Выберите несколько вариантов)
+|33| SelectByText
+|33| SelectByValue
+|34| SelectByIndex
+SelectByClass
+SelectByXPath

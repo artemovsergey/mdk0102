@@ -1,0 +1,133 @@
+192.168.255 192.168.4
+Ставропольский колледж связи
+Специальность::0907::Информационные системы и программирование
+Дисциплина::1002::МДК 01.02 Поддержка и тестирование программных модулей: Ожидания в Selenium
+Преподаватель::Артемов С.В.
+Индекс теста::18::МДК 01.02 Поддержка и тестирование программных модулей: Ожидания в Selenium
+Всего вопросов::20
+Выводимых вопросов::15
+Тип теста::S=100::Z(DCDCDC)::J80%70%60%
+
+##01::3
+Зачем нужны ожидания в Selenium WebDriver?
+Они заставляют WebDriver ждать появления элементов перед взаимодействием
+Они ускоряют загрузку веб-страницы браузером
+Они отключают анимацию на веб-странице
+Они автоматически исправляют ошибки в тестах
+##02::3
+Какая ошибка возникает, если WebDriver сразу пытается найти ещё не загруженный элемент?
+NoSuchElementException
+TimeoutException
+NullReferenceException
+FileNotFoundException
+##03::3
+Какие три основных типа ожиданий существуют в Selenium?
+Implicit Wait, Explicit Wait, Fluent Wait
+Implicit Wait, Explicit Wait, Static Wait
+Soft Wait, Hard Wait, Fluent Wait
+Explicit Wait, Fluent Wait, Thread Wait
+##04::3
+Какое ожидание является глобальным для всех элементов?
+Implicit Wait
+Explicit Wait
+Fluent Wait
+Thread Sleep
+##05::3
+Как задать Implicit Wait в C#?
+driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10)
+driver.ImplicitWait = 10
+driver.SetTimeout(TimeSpan.FromSeconds(10))
+driver.Waits.Add(10)
+##06::3
+Сколько раз задаётся Implicit Wait?
+Один раз для всего WebDriver
+Перед каждым поиском элемента
+Отдельно для каждого элемента страницы
+Отдельно для каждой вкладки браузера
+##07::3
+Для чего Implicit Wait не подходит?
+Для сложных условий, например ожидания, пока элемент станет кликабельным
+Для страниц с небольшими задержками загрузки
+Для поиска элементов по атрибуту id
+Для простых сценариев автоматизации
+##08::3
+Какой класс используется для Explicit Wait?
+WebDriverWait
+ExpectedWait
+WaitManager
+DriverWait
+##09::3
+Через что задаются условия Explicit Wait?
+ExpectedConditions
+WebDriverOptions
+TimeSpan
+By.Condition
+##10::3
+Какое условие Explicit Wait проверяет, что элемент доступен для клика?
+ElementToBeClickable
+ElementToBeSelected
+ElementToBeVisible
+ClickableElement
+##11::3
+Какое условие Explicit Wait проверяет, что элементы видимы на странице?
+VisibilityOfAllElementsLocatedBy
+AllElementsVisibility
+VisibilityOfElements
+VisibleElementsBy
+##12::3
+Какое условие Explicit Wait проверяет присутствие элемента в DOM?
+ElementExists
+ElementLocated
+DomElementPresent
+ElementInPage
+##13::3
+Какое условие Explicit Wait проверяет, что текст появился в элементе?
+TextToBePresentInElement
+TextInElement
+ElementContainsText
+TextOfElement
+##14::3
+Что такое Fluent Wait?
+Расширенная версия Explicit Wait с настройкой частоты опроса и игнорируемых исключений
+Глобальное ожидание для всех элементов страницы
+Ожидание без возможности задать условие
+Другое название Implicit Wait
+##15::3
+Какой класс используется для Fluent Wait в примерах лекции?
+DefaultWait<IWebDriver>
+WebDriverWait<IWebDriver>
+FluentDriverWait
+CustomWait<IWebDriver>
+##16::3
+Что задаёт свойство PollingInterval в Fluent Wait?
+Частоту опроса элемента
+Максимальное время ожидания
+Список игнорируемых исключений
+Скорость загрузки страницы
+##17::3
+Какой метод Fluent Wait задаёт игнорируемые исключения?
+IgnoreExceptionTypes
+SkipExceptionTypes
+IgnoreErrors
+AddIgnoredExceptions
+##18::4
+Какие утверждения об Implicit Wait верны согласно лекции? (Выберите несколько вариантов)
+|50| Задаётся один раз для всего WebDriver
+|50| Если элемент не найден, поиск повторяется в течение заданного времени
+Позволяет ждать, пока элемент станет кликабельным
+Задаётся отдельно для каждого элемента
+Работает только в браузере Chrome
+##19::4
+Какие условия Explicit Wait перечислены в лекции? (Выберите несколько вариантов)
+|33| ElementToBeClickable
+|33| ElementExists
+|34| TextToBePresentInElement
+PageToBeLoaded
+ElementToBeRefreshed
+##20::4
+Какие рекомендации по использованию ожиданий даны в лекции? (Выберите несколько вариантов)
+|33| Не смешивать Implicit и Explicit Wait
+|33| Для сложных динамических страниц использовать Explicit или Fluent Wait
+|34| Всегда использовать ожидания перед взаимодействием с элементами
+Всегда использовать Thread.Sleep вместо ожиданий
+Задавать Implicit Wait перед каждым поиском элемента

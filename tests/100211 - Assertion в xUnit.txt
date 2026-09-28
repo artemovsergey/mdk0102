@@ -1,0 +1,130 @@
+192.168.255
+Ставропольский колледж связи
+Специальность::0907::Информационные системы и программирование
+Дисциплина::1002::МДК 01.02 Поддержка и тестирование программных модулей: Assertion в xUnit
+Преподаватель::Артемов.С.В.
+Индекс теста::11::МДК 01.02 Поддержка и тестирование программных модулей: Assertion в xUnit
+Всего вопросов::20
+Выводимых вопросов::15
+Тип теста::S=100::Z(DCDCDC)::J90%80%70%
+
+##01::3
+Какой паттерн организации тестового кода описывается как Arrange-Act-Assert?
+AAA
+BDD
+TDD
+SOLID
+##02::3
+Какой метод xUnit используется для проверки точного равенства значений?
+Assert.Equal
+Assert.Equals
+Assert.Same
+Assert.True
+##03::3
+Какой метод используется для проверки, что коллекция содержит определенный элемент?
+Assert.Contains
+Assert.HasElement
+Assert.Includes
+Assert.Exists
+##04::3
+Какой метод xUnit следует использовать для проверки выброса конкретного типа исключения?
+Assert.Throws
+Assert.Exception
+Assert.Catch
+Assert.ThrowsException
+##05::3
+Что проверяет метод Assert.Same?
+Ссылочную идентичность объектов
+Равенство значений
+Наличие объекта в памяти
+Соответствие типов
+##06::3
+Какой метод используется для проверки всех элементов коллекции на условие?
+Assert.All
+Assert.Every
+Assert.ForEach
+Assert.ValidateAll
+##07::3
+Как проверить, что число с плавающей точкой равно ожидаемому значению с определенной точностью?
+Assert.Equal(expected, actual, precision)
+Assert.ApproximatelyEqual(expected, actual, precision)
+Assert.CloseTo(expected, actual, precision)
+Assert.FloatEqual(expected, actual, precision)
+##08::3
+Какой метод используется для проверки, что объект не равен null?
+Assert.NotNull
+Assert.NotEmpty
+Assert.Exists
+Assert.NotNone
+##09::3
+Что делает метод Assert.Multiple?
+Выполняет несколько проверок и показывает все ошибки
+Позволяет писать несколько утверждений в одном тесте
+Группирует связанные тесты
+Запускает тесты параллельно
+##10::3
+Какой метод проверяет, что коллекция не содержит элементов?
+Assert.Empty
+Assert.Zero
+Assert.NoElements
+Assert.NotAny
+##11::3
+Как проверить, что число находится в определенном диапазоне?
+Assert.InRange
+Assert.Between
+Assert.Range
+Assert.Within
+##12::3
+Какой метод используется для проверки порядка элементов в коллекции?
+Assert.Collection
+Assert.SequenceEqual
+Assert.Ordered
+Assert.Sorted
+##13::3
+Что является антипаттерном в assertions?
+Тесты без проверок (assertions)
+Использование Assert.Equal
+Проверка исключений
+Использование теории (Theory)
+##14::3
+Какой метод проверяет тип объекта?
+Assert.IsType
+Assert.TypeOf
+Assert.InstanceOf
+Assert.Class
+##15::3
+Как проверить, что строка содержит определенную подстроку?
+Assert.Contains(expectedSubstring, actualString)
+Assert.StringContains(expectedSubstring, actualString)
+Assert.HasSubstring(expectedSubstring, actualString)
+Assert.Includes(expectedSubstring, actualString)
+##16::3
+Какой метод используется для более гибкой проверки исключений?
+Record.Exception
+Capture.Exception
+TryCatch.Exception
+Test.Exception
+##17::3
+Что проверяет Assert.NotSame?
+Что объекты разные в памяти
+Что объекты имеют разные значения
+Что объекты разных типов
+Что один объект null, а другой нет
+##18::3
+Какой принцип рекомендуется соблюдать в тестах?
+Одна ответственность на тест
+Максимальное количество проверок в одном тесте
+Тестирование только успешных сценариев
+Использование случайных данных
+##19::3
+Как проверить, что булево значение равно true?
+Assert.True
+Assert.IsTrue
+Assert.Truthy
+Assert.OK
+##20::3
+Какой метод проверяет, что коллекция содержит определенное количество элементов?
+Assert.Single (для одного элемента) или Assert.Equal с Count()
+Assert.Count
+Assert.HasCount
+Assert.Length
